@@ -1,0 +1,27 @@
+{
+  "name": "enchanced_firebase_js_sdk",
+  "version": "1.0.0",
+  "description": "An enhanced version of cloud firestore npm package with support for filtering sorting, limiting, error handling and success scenarios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sliit-foss/enchanced_firebase_js_sdk.git"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "enchanced-firestore"
+  ],
+  "author": "SLIIT-FOSS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sliit-foss/enchanced_firebase_js_sdk/issues"
+  },
+  "homepage": "https://github.com/sliit-foss/enchanced_firebase_js_sdk#readme",
+  "dependencies": {
+    "firebase": "^9.4.1"
+  }
+}
