@@ -1,5 +1,5 @@
 const { initializeFirebase, resetFirestore } = require('../testBase')
-const { firestoreService } = require('../..')
+const { firestoreService } = require('../../src')
 
 let app
 
