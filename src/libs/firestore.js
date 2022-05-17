@@ -14,7 +14,7 @@ const read = async ({ collectionName, filters = [], sorts = [], recordLimit, onS
 
 const write = async ({ collectionName, documentId, payload, merge = false, onSuccess, onError }) => {
   let writeFunc
-  if (documentId) writeFunc = () => setDoc(doc(databaseInstance, `${collectionName}/${documentId}`), payload, { merge: merge })
+  if (documentId) writeFunc = () => setDoc(doc(databaseInstance, `${collectionName}/${documentId}`), payload, { merge })
   else writeFunc = () => addDoc(collection(databaseInstance, collectionName), payload)
   return await request({ func: writeFunc, onSuccess, onError })
 }
