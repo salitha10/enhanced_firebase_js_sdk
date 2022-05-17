@@ -1,6 +1,6 @@
 {
   "name": "enhanced_firebase_js_sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An enhanced version of cloud firestore npm package with support for filtering sorting, limiting, error handling and success scenarios",
   "main": "src/index.js",
   "scripts": {
