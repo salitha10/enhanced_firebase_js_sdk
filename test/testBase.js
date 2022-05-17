@@ -1,5 +1,5 @@
 const { initializeApp } = require('firebase/app')
-const { firestoreService, databaseService } = require('..')
+const { firestoreService, databaseService } = require('../src')
 
 const initializeFirebase = () => {
   const firebaseConfig = typeof window !== 'undefined' ? JSON.parse(atob(process.env.FIREBASE_CONFIG)) : JSON.parse(Buffer.from(process.env.FIREBASE_CONFIG, 'base64').toString())
